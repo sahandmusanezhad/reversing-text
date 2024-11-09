@@ -1,0 +1,7 @@
+def master_yoda(text):
+
+    wordlist = text.split()
+    reverse_worldlist = wordlist[::-1]
+    return ' '.join(reverse_worldlist)
+
+# master_yoda('i am home')
